@@ -1,4 +1,4 @@
-FROM alpine:13.3
+FROM alpine:3.13.2
 MAINTAINER lfelipedeoliveira, felipe@biome-hub.com
 
 ENV APP_NAME=bowtie2
