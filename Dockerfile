@@ -13,7 +13,7 @@ RUN apk add build-base py-pip jpeg-dev zlib-dev gcc g++ make libtbb libtbb-dev p
   && unzip bowtie2-$VERSION-source.zip \
   && cd bowtie2-$VERSION \
   && make \
-  && cp bowtie2 /user/bin \
-  && cp bowtie2-* /user/bin \
+  && cp bowtie2 /usr/bin \
+  && cp bowtie2-* /usr/bin \
   && cd / \
   && rm -r /bowtie2-$VERSION
