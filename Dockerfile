@@ -6,7 +6,7 @@ ENV VERSION=2.4.2
 
 RUN echo 'https://dl-cdn.alpinelinux.org/alpine/edge/testing'  >> /etc/apk/repositories
 
-RUN apk add build-base py-pip jpeg-dev zlib-dev gcc g++ make libtbb libtbb-dev perl
+RUN apk add build-base py-pip jpeg-dev zlib-dev gcc g++ make libtbb libtbb-dev perl python3
 
 # Download & install
  RUN wget https://sourceforge.net/projects/bowtie-bio/files/bowtie2/$VERSION/bowtie2-$VERSION-source.zip \
